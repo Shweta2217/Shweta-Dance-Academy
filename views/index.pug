@@ -1,0 +1,56 @@
+doctype html
+html
+    head 
+        style 
+            include ../static/style.css  
+    body
+        div#navbarintro
+             nav#navbar
+                    ul
+                        div#logo
+                            img(src="/static/logo.jpg")
+                            | SDAS
+                        li #[a(href='/') Home ]
+                        li #[a(href='/') About ]
+                        li #[a(href='/') Services ]
+                        li #[a(href='/') Class Info ]
+                        li #[a(href='/') Contact Us]
+             section#intro
+                    section.sectionstyle 
+                        h1 Welcome To Shweta's Dance Acadmey 
+                        div Eat Sleep Dance  Repeat 
+        section#missionsection 
+            h2 Our Mission 
+            div.cards
+                h3  Dance Perfection 
+                div.card_box
+                    div.card_img
+                        img(src="/static/img1.jpg", alt="")
+                    div.card_content 
+                        p This is the best dance acadmy of the universe
+            div.cards
+                h3 Dance As You Like 
+                div.card_box
+                    div.card_img
+                        img(src="/static/img2.jpg", alt="")
+                    div.card_content 
+                        p This is the best dance acadmy of the universe
+            div.cards
+                h3 Expert TSeaching 
+                div.card_box
+                    div.card_img
+                        img(src="/static/img3.jpg", alt="")
+                    div.card_content 
+                        p This is the best dance acadmy of the universe
+               
+        section#sponsersection
+            h2  section For sponser  
+            div#sponsers
+                 img(src="/static/amazon.png", alt="amazon",class="spimg")
+                 img(src="/static/Dugu.jpg", alt="dugu",class="spimg")
+                 img(src="/static/cap.png", alt="apple",class="spimg")
+                 img(src="/static/microsoft.png", alt="microsoft",class="spimg")
+        footer#footer
+           | Copyright 2020 shwetadanceacademy.com
+    script 
+        include ../static/script.js
